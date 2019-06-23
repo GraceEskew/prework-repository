@@ -1,0 +1,203 @@
+JAVASCRIPT WORKBOOK
+
+#1: PAGE 23 Create a String containing your favorite food. (Do not create a variable)
+ANSWER: "BBQ"
+
+#2: PAGE 25 Create a negative number. (Do not create a variable)
+ANSWER: -2
+
+#3: PAGE 27 Create a Boolean. (Do not create a variable)
+ANSWER: true
+
+#4 PAGE 35 Make an array with 3 String. The Strings can be anything you like. (Do not create a variable)
+ANSWER: ["A", "B", "C"]
+
+#5 PAGE 37 Make an array that contains 5 numbers. (Do not create a variable)
+ANSWER: [1, 2, 3, 4, 5]
+
+#6 PAGE 39 Create an Object that represents you. Give it a property called name with a string value of your name and a property called age with a number value of your age. (Do not create a variable)
+ANSWER: 
+{
+    name: "Grace",
+    age: 32
+}
+
+#7 PAGE 49 Create a variable called favFood and assign it the value of your favorite food.
+ANSWER: let favFood = "BBQ"
+
+#8 PAGE 51 Create a variable called favNumber and assign it the value of your favorite number.
+ANSWER: let favNumber = 1
+
+#9 PAGE 53 Create a variable called isAwesome and assign it a boolean value.
+ANSWER: let isAwesome = true
+
+#10 PAGE 68 Create a variable called sum and assign it the value of any number plus any other number.
+ANSWER: let sum = 2 + 3
+
+#11 PAGE 70 Create a variable called product and assign it the value any number times any other number.
+ANSWER: let product = 2 * 2
+
+#12 PAGE 72 Create a variable called magicNum that has the value 7. Create another variable called half and assign it the value of magicNum divided by 2
+ANSWER: 
+let magicNum = 7
+let half = magicNum / 2
+
+#13 PAGE 78 Write an expression to check if 9 is equal to 7
+ANSWER: 9 === 7
+
+#14 PAGE 80 Write an expression to check if "apples" is not equal to "oranges"
+ANSWER: "apples" !== "oranges"
+
+#15 PAGE 82 Using any comparison operator, write an expression that evaluates to true
+ANSWER: 5===5
+
+#16 PAGE 88 Write an expression to determine if 4 is less than 5 AND 4 is greater than 3
+ANSWER: 4 < 5 && 4 > 3
+
+#17 PAGE 90 Write an expression that uses the logical OR operator and evaluates to true
+ANSWER: 2==2 || 3 > 7
+
+#18 PAGE 92 Write an expression that uses the logical AND operator and evaluates to true
+ANSWER: 7==7 && 2==2
+
+#19 PAGE 100 Using an object accessor (preferably dot notation), add code inside the parentheses of the console.log that will print sonic's species.
+ANSWER:
+let sonic = {
+ species: "Hedgehog",
+ rings: 3000,
+ isInvincible: false,
+ health: 52
+}
+
+console.log(sonic.species);
+
+#20 PAGE 102 Using an object accessor (preferably dot notation), add code inside the parentheses of the console.log that will print sonic's health.
+ANSWER:
+let sonic = {
+ species: "Hedgehog",
+ rings: 3000,
+ isInvincible: false,
+ health: 52
+}
+
+console.log(sonic.health);
+
+#21 PAGE 104 Using an array accessor, add code inside the parentheses of the console.log that will print "snickerdoodle".
+ANSWER: 
+let icecreams = ["rocky road", "cookies and cream", "snickerdoodle", "butter pecan"];
+
+console.log(icecreams[2]);
+
+#22 PAGE 106 Using an array accessor, add code inside the parentheses of the console.log that will print "rocky road".
+ANSWER:
+let icecreams = ["rocky road", "mint chocolate chip", "snickerdoodle", "butter pecan"];
+
+console.log(icecreams[0]);
+
+#23 PAGE 117 Imagine that there is a variable called secretNum that holds a number value. Write code that logs "big number" to the console if secretNum is greater than 5 and "little number" otherwise.
+ANSWER:
+if(secretNum > 5){
+   console.log("big number");
+}
+else{
+    console.log("little number");
+}
+
+
+#24 PAGE 122 Imagine that there is a variable called isLoggedIn that holds a boolean value. Write code that logs "Welcome" if isLoggedIn is true
+ANSWER:
+if(isLoggedIn){
+  console.log("Welcome");
+}
+
+#25 PAGE 126 There is a variable called isLoggedIn and another called isAdmin. Write code that logs "Welcome to the admin page" to the console if isLoggedIn is true AND isAdmin is true, logs "Welcome to the user page" if isLoggedIn is true but isAdmin is false and "please log in" otherwise.
+ANSWER:
+if (isLoggedin && isAdmin) {
+  console.log("Welcome to the admin page");
+}
+else if(isLoggedin){
+  console.log("Welcome to the user page");
+}
+else {
+  console.log("please log in");
+}
+
+#26 PAGE 136 Using a for loop print the numbers from 0 to 10
+ANSWER:
+for (let i = 0; i < 11; i++) {
+   console.log(i);
+}
+
+#27 PAGE 139 Using a for loop print the numbers from 9 to 0
+ANSWER:
+for (let i = 9; i > -1; i--) {
+   console.log(i);
+}
+
+#28 PAGE 142 Using a for loop print the string "Bumfuzzle" 3 times
+ANSWER:
+for (let i = 0; i < 3; i++) {
+   console.log("Bumfuzzle");
+}
+
+#29 PAGE 152 Assume that there is an array called pokemon. Write a loop that will log every item oin the array to the console.
+ANSWER:
+for (let i = 0; i < pokemon.length; i++) {
+    console.log(pokemon[i]);
+}
+
+#30 PAGE 154 Assume that there is an array called badSmells. Write a loop that will log every item in the array to the console
+ANSWER: 
+for (let i = 0; i < badSmells.length; i++) {
+   console.log(badSmells[i]);
+}
+
+
+#31 PAGE 156 Assume that there is an array called primes. Write a loop that will log every item oin the array to the console IN REVERSE ORDER
+ANSWER: 
+for (let i = primes.length-1; i > -1; i--) {
+   console.log(primes[i]);
+}
+
+#32 PAGE 175 In the function below, add code that logs the number 4 to the console when the function is called.
+ANSWER:
+let printFour = function(){
+    console.log(4);
+}
+
+printFour();
+
+#33 PAGE 177 Alter the code below so that the function takes in 2 parameters and returns those parameters combined.
+ANSWER:
+let combine = function(word1, word2){
+  console.log(word1 + word2);
+}
+
+combine("tur","ducken");
+
+#34 PAGE 180 Alter the code below so that the function takes in 3 parameters and returns the product of the 3.
+ANSWER:
+let multiply = function(num1, num2, num3){
+   return num1 * num2 * num3;
+};
+
+#35 PAGE 182 Write a function called add that takes in two numbers and returns the sum
+ANSWER:
+let add = function(num1, num2){
+    return num1 + num2;
+};
+
+#36 PAGE 184 Write a function called getSecond that takes in an array and returns the second element
+ANSWER:
+let getSecond = function(arr){
+        return arr[1];
+    }
+
+#37 PAGE 186 Write a function above the existing code called pluarlize that takes in string and returns the string with the letter s added to the end
+ANSWER:
+let pluralize= function(word){
+   return word + "s";
+}
+
+let plural = pluralize("porpoise"); 
+console.log(plural)
